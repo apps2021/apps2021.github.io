@@ -15,6 +15,7 @@
       margin: 0;
       background-color: white;
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+      overflow: hidden;
     }
 
     .icon {
@@ -63,9 +64,9 @@
 
     .btn-close {
       background-color: white;
-      color: #666;
-      border: 1px solid #007aff;
-      opacity: 0.7;
+      color: #999;
+      border: 1px solid #ccc;
+      opacity: 1;
     }
 
     .btn-get {
@@ -125,7 +126,7 @@
 <body>
   <img src="IMG_9410.jpeg" alt="App Icon" class="icon">
   <div class="title">Garageband</div>
-  <div class="rating">4.7 ★ Ratings     FREE Install</div>
+  <div class="rating">4.9 ★ Ratings     FREE Install</div>
   <div class="button-group">
     <button class="btn btn-close" onclick="window.webkit.messageHandlers.closePage.postMessage(null);">Close</button>
     <div class="divider"></div>
